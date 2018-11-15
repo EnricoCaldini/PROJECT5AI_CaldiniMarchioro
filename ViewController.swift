@@ -27,5 +27,10 @@ class ViewController: UIViewController {
     {
         return Int(s)
     }
+    
+    private func calcolaAreaQuadrato(n: Int) -> Int
+    {
+        return n * n
+    }    
 }
 
