@@ -17,9 +17,15 @@ class ViewController: UIViewController {
 
 
     @IBOutlet weak var _textview: UITextField!
+
     @IBAction func _button(_ sender: Any) {
     }
     
     @IBOutlet weak var _label: UILabel!
+
+    private func fromStringToInt(s: String) -> Int
+    {
+        return Int(s)
+    }
 }
 
