@@ -23,6 +23,14 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var _label: UILabel!
 
+    private func fromStringToInt(s: String) -> Int
+    {
+        return Int(s)
+    }
     
+    private func calcolaAreaQuadrato(n: Int) -> Int
+    {
+        return n * n
+    }    
 }
 
